@@ -1,0 +1,66 @@
+.profile {
+  padding: 0 2rem;
+  width: 100%;
+}
+.profile > h1 {
+  color: var(--grey);
+}
+.updateBtn {
+  background: none;
+  border: none;
+  background: var(--grey);
+  padding: 1rem 2rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: var(--white);
+  cursor: pointer;
+}
+.updateBtn:active {
+  transform: scale(0.98);
+}
+.wrapper {
+  padding: 3rem 0 0 0;
+  width: 50rem;
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.input > p {
+  font-weight: 600;
+  color: var(--grey);
+  font-size: 1.6rem;
+}
+.input > input {
+  border: 0.1rem solid #eee;
+  background: none;
+  padding: 1.3rem;
+  border-radius: 0.5rem;
+  width: 30rem;
+  font-weight: 500;
+}
+@media screen and (max-width: 828px) {
+  .profile {
+    padding: 0 0rem;
+  }
+}
+@media screen and (max-width: 566px) {
+  .input {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .input > p {
+    margin-bottom: 1rem;
+  }
+  .input > input {
+    width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+}

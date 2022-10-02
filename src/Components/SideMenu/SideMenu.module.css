@@ -1,0 +1,29 @@
+.sideMenu {
+  width: 40rem;
+  border-right: 0.1rem solid #eee;
+  padding-right: 1rem;
+}
+.menuLinks {
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--grey);
+  font-size: 1.5rem;
+  border-radius: 0.4rem;
+  padding: 1rem;
+}
+.menuLinks:hover {
+  background: #eee;
+}
+.active {
+  background: #eee;
+}
+@media screen and (max-width: 900px) {
+  .sideMenu {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 828px) {
+  .sideMenu {
+    display: none;
+  }
+}

@@ -1,0 +1,18 @@
+.title {
+  font-weight: 600;
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-bottom: 0.1rem solid #eee;
+  color: var(--grey);
+}
+.wrapper {
+  padding-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 900px) {
+  .title {
+    margin-top: 2rem;
+  }
+}
